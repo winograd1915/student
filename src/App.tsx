@@ -6,20 +6,34 @@ function App() {
   return (
     <div className="App">
       <h1>Личный кабинет студента</h1>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <table>
+        <tr>
+          <td>Пара</td>
+          <td>Предмет</td>
+          <td>Аудитория</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Дифференциальные уравнения</td>
+          <td>414</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Уравнения математическрй физики</td>
+          <td>317</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Компьтерная безопасность</td>
+          <td>420</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Физкультура</td>
+          <td>112</td>
+        </tr>
+      </table>
+      
     </div>
   );
 }
