@@ -93,3 +93,13 @@
 	border: 1px solid #8b0000;
   width: 50%;
 }
+
+@media screen and (max-width: 800px) {
+	.double-column {
+		display: block;
+	}
+	.double-column > div {
+		width: 100%;
+	}
+}
+
