@@ -1,7 +1,7 @@
 import React from "react";
 import { Day } from "./Day";
 
-const database = {}
+const database:any = {}
 
 database['ПМИ42'] = [[
             {
