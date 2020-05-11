@@ -42,6 +42,11 @@
   margin: 0 auto;
 }
 
+* {
+
+  box-sizing: border-box;	
+}
+
 .block-cmp {
   border: 1px solid #282c34;
   padding: 10px;
@@ -65,15 +70,19 @@
 .sc-flex {
   display: flex;
   flex-wrap: wrap;
-}
-
-.sc-flex > .block-cmp {
   
 }
 
+.sc-flex > .block-cmp {
+  width: 100%;
+}
+.day-table {
+	width: 100%;
+}
 .day-table td {
-  border: 1px solid #61dafb;
+  border: 1px solid #dc143c;
   padding: 4px 8px;
+
 }
 
 .double-column {
@@ -81,5 +90,6 @@
 }
 
 .double-column > div {
+	border: 1px solid #8b0000;
   width: 50%;
 }
